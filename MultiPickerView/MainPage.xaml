@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MultiPickerView" 
+             xmlns:pickerView="clr-namespace:MultiPickerView.extend;assembly=MultiPickerView"
+             x:Class="MultiPickerView.MainPage">
+    
+    <StackLayout>
+        
+        <Picker 
+            Margin="15,50,15,15"
+            Title="single column"
+            HorizontalOptions="FillAndExpand"
+            ItemsSource="{Binding SingleSource}">
+        </Picker>
+        
+        <pickerView:PickerView 
+            Margin="15"
+            Title="two columns"
+            HorizontalOptions="FillAndExpand" 
+            SelectedSource="{Binding TwoSource}">
+        </pickerView:PickerView>
+            
+    </StackLayout>
+</ContentPage>
