@@ -5,7 +5,7 @@ Multi-column linkage pickerView based on c# (xamarin.forms)
 The project only realized the iOS pickerview linkage effect
 
 ## Effect
-![Multiple pickerview]("screenshot/pickerview.gif")
+![Multiple pickerview](screenshot/pickerview.gif)
 
 ## Usage
 
